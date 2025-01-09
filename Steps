@@ -1,1 +1,12 @@
+Steps to add ffmpeg: Add the Path to PATH Temporarily Run the following command:
+
+export PATH="/opt/homebrew/bin:$PATH"
+
+Check if ffmpeg is Accessible Run:
+
+which ffmpeg
+
+
+
+
 yt-dlp -x --embed-thumbnail --audio-format mp3 "PLAYLIST_LINK"
